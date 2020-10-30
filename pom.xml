@@ -7,6 +7,7 @@
   <version>1.0-SNAPSHOT</version>
   <name>my-app</name>
   <url>http://maven.apache.org</url>
+  
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -15,7 +16,8 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-      <repositories>
+
+   <repositories>
         <repository>
             <id>artifactory-slc-prod1</id>
             <name>fmw-virtual</name>
@@ -27,6 +29,7 @@
             </releases>
         </repository>
     </repositories>
+    
     <pluginRepositories>
         <pluginRepository>
             <id>artifactory-slc-prod1</id>
@@ -34,6 +37,7 @@
             <url>http://artifactory-slc-prod1.oraclecorp.com/artifactory/fmw-virtual</url>
         </pluginRepository>
     </pluginRepositories>
+  
   <build>
     <plugins>
       <plugin>
