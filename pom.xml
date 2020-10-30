@@ -32,8 +32,7 @@
           </archive>
         </configuration>
       </plugin>
-    </plugins>
-    <repositories>
+      <repositories>
         <repository>
             <id>artifactory-slc-prod1</id>
             <name>fmw-virtual</name>
@@ -52,5 +51,6 @@
             <url>http://artifactory-slc-prod1.oraclecorp.com/artifactory/fmw-virtual</url>
         </pluginRepository>
     </pluginRepositories>
+    </plugins>
   </build>
 </project>
