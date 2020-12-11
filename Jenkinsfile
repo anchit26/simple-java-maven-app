@@ -3,6 +3,7 @@ pipeline {
     stages {
         stage('---clean---') {
             steps {
+                sh "echo HelloWorld" 
                 sh "mvn clean"
             }
         }
